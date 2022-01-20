@@ -1,0 +1,49 @@
+.players_box{
+    background-color: rgb(231, 225, 225);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.heading{
+    color: rgb(34, 19, 1);
+}
+
+.players_list{
+    border-left: 2px solid blueviolet;
+    padding: 1px 5px;
+    /* padding-left: 10px; */
+    /* padding-left: 0px; */
+}
+
+.single_player{
+    background-color: rgb(65, 60, 60);
+    margin: 10px 0px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+}
+
+.current_turn{
+    background-color: rgb(31, 58, 26);;
+}
+
+.your_name{
+    margin-left: auto;
+    color: yellow;
+}
+
+.leave_room_btn{
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(26, 22, 22, 0.986);
+    color: white;
+}

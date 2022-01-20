@@ -1,0 +1,155 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+
+/*  */
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    margin: 30px auto;
+    margin-bottom: 200px;
+}
+
+
+/*  */
+.game_name{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+/*  */
+.game_players_div{
+    width: 100%;
+}
+
+
+/*  */
+.game_box{
+    padding: 15px;
+}
+
+.room_box{
+    width: 100%;
+    max-width: 500px;
+}
+
+.error{
+    color: red;
+    font-size: smaller;
+}
+
+.display_room{
+    margin: 10px auto 35px;    
+    background-color: rgb(97, 94, 94);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    max-width: 300px;
+}
+
+.display_room_code{
+    font-weight: 500;
+}
+.copy_icon{
+    float: right;
+    padding: 5px;
+    border-radius: 100%;
+}
+.copy_icon:hover{
+    background-color: rgb(54, 50, 50);
+}
+
+.game_message{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.board_row{
+    justify-content: center;
+}
+
+.board-cell{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+#loc_00{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#loc_01{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#loc_02{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#loc_10{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#loc_11{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#loc_12{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#loc_20{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+#loc_21{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+#loc_22{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.game_verdict{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 10px;
+    color: gold;
+    border: 2px solid rgb(221, 207, 14);
+    background-color: rgb(106, 106, 175);
+    margin: 10px auto;
+    border-radius: 10px;
+    /* width: 100%; */
+}
+
+.play_again_btn{
+    background-color: #24b999 !important;
+    color: white;
+}
+.play_again_btn:hover{
+    background-color: #218872 !important;
+    color: white;
+}
